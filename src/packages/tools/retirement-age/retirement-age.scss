@@ -1,0 +1,21 @@
+@import '../../../styles/calc-page.scss';
+
+.type-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.type-item {
+  padding: 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+}
+.type-item.is-active {
+  border-color: var(--p-main, #1677ff);
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-weight: 700;
+}

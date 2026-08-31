@@ -1,0 +1,26 @@
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 22px 2px 12px;
+}
+
+.section-header__title {
+  color: var(--c-33, #1f2329);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.section-header__more {
+  display: flex;
+  align-items: center;
+  color: var(--c-99, #86909c);
+  font-size: 13px;
+}
+
+.section-header__chevron {
+  margin-left: 2px;
+  font-size: 16px;
+  line-height: 1;
+}

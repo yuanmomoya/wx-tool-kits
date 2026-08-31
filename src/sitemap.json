@@ -1,0 +1,9 @@
+{
+  "desc": "关于本文件的更多信息，请参考微信小程序 sitemap 配置文档",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}

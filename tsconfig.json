@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "rootDir": ".",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "react"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["./src", "./types", "./config"],
+  "compileOnSave": false
+}

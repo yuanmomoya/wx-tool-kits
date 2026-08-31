@@ -1,0 +1,119 @@
+@import '../../../styles/tool-page.scss';
+
+.privacy-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.privacy-summary__icon {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.privacy-summary__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.privacy-summary__title,
+.privacy-summary__desc,
+.metadata-label,
+.metadata-value,
+.metadata-status {
+  display: block;
+}
+
+.privacy-summary__title {
+  color: var(--c-33, #1f2329);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.privacy-summary__desc {
+  margin-top: 3px;
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.metadata-list {
+  overflow: hidden;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-12, 12px);
+}
+
+.metadata-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  border-bottom: 1px solid var(--card-border, #e5e8eb);
+  background: #fff;
+}
+
+.metadata-row:last-child {
+  border-bottom: 0;
+}
+
+.metadata-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.metadata-label {
+  color: var(--c-33, #1f2329);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.metadata-value {
+  margin-top: 4px;
+  color: var(--c-66, #4e5969);
+  font-size: 12px;
+  line-height: 1.45;
+  word-break: break-all;
+}
+
+.metadata-status {
+  flex: none;
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: #fff1f0;
+  color: #cf4b45;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.result-preview {
+  width: 100%;
+  height: 190px;
+  margin-top: 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.clean-result {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-8, 8px);
+  background: #edf8f4;
+  color: #25765f;
+  font-size: 12px;
+  line-height: 1.5;
+}

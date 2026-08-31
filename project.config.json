@@ -1,0 +1,41 @@
+{
+  "miniprogramRoot": "dist/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "projectname": "image-toolkit-tool-kits",
+  "description": "全能工具箱（Taro + Skyline + 微信云开发内容安全）",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "compileHotReLoad": false,
+    "postcss": true,
+    "minified": true,
+    "compileWorklet": true,
+    "uglifyFileName": true,
+    "uploadWithSourceMap": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "simulatorPluginLibVersion": {},
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {},
+  "libVersion": "3.17.0"
+}

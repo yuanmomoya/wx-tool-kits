@@ -1,0 +1,13 @@
+@import '../../../styles/tool-page.scss';
+
+.block {
+  margin-top: 14px;
+}
+
+.result-preview {
+  width: 100%;
+  height: 180px;
+  margin-top: 12px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}

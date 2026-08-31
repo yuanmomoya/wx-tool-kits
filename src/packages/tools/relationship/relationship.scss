@@ -1,0 +1,121 @@
+@import '../../../styles/calc-page.scss';
+
+.gender-row {
+  margin-top: 12px;
+}
+
+.gender-segment {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.builder-card {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.path-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.path-segment {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.path-arrow {
+  color: var(--c-99, #86909c);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.path-chip {
+  padding: 4px 10px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: 999px;
+  background: var(--c-ff, #ffffff);
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.path-limit {
+  display: block;
+  margin-top: 8px;
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.inline-result-card {
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding: 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--c-ff, #ffffff);
+}
+
+.result-note {
+  display: block;
+  margin-top: 8px;
+  color: var(--c-66, #4e5969);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.builder-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.builder-action {
+  flex: 1;
+  height: 40px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--c-ff, #ffffff);
+  color: var(--p-main, #1677ff);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+
+.builder-action-delete {
+  background: var(--p-weak, #eaf3ff);
+}
+
+.example-row {
+  margin-top: 10px;
+}
+
+.example-chip {
+  font-size: 12px;
+}
+
+.group-card {
+  margin-top: 12px;
+}
+
+.group-title {
+  display: block;
+}
+
+.token-chip {
+  font-size: 12px;
+}
+
+.relation-groups {
+  margin-top: 4px;
+}

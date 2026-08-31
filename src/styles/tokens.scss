@@ -1,0 +1,59 @@
+@mixin theme-tokens {
+  /* 中性 */
+  --c-33: #1f2329;
+  --c-66: #4e5969;
+  --c-99: #86909c;
+  --c-e6: #d8dde3;
+  --c-f5: #f2f3f5;
+  --c-ff: #ffffff;
+
+  /* 工具型产品使用稳定蓝色。 */
+  --p-main: #1677ff;
+  --p-hover: #4096ff;
+  --p-weak: #eaf3ff;
+  --danger-main: #f53f3f;
+  --success-main: #00b42a;
+
+  /* Surface */
+  --s-1: #f2f3f5;
+  --s-1-hover: #eef2f7;
+  --s-1-weak: #f5f7fa;
+
+  /* 边框 */
+  --input-border: #dfe3e8;
+  --card-border: #e5e8eb;
+
+  /* 圆角：卡片 12px、操作控件 8px；胶囊仅用于标签与状态。 */
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-control: 8px;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+  --shadow-card: none;
+
+  /* 页面可覆盖强调色，保持控件形态一致。 */
+  --page-accent: var(--p-main);
+  --page-accent-hover: var(--p-hover);
+  --page-accent-weak: var(--p-weak);
+
+  /* tone 色块（工具图标底） */
+  --tone-coral: #fff1ee;
+  --tone-indigo: #eef0ff;
+  --tone-mint: #e8f6f2;
+  --tone-amber: #fff6e5;
+  --tone-violet: #f3efff;
+  --tone-red: #ffecec;
+  --tone-green: #eaf6ea;
+  --tone-sky: #eaf4fb;
+  --tone-deep: #e8f2ef;
+}
+
+// H5 与小程序分别挂到 body/page，避免 Skyline 解析不支持的 :root 伪类。
+body {
+  @include theme-tokens;
+}
+
+page {
+  @include theme-tokens;
+}

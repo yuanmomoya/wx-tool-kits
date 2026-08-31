@@ -1,0 +1,57 @@
+@import '../../../styles/calc-page.scss';
+
+.down-input-row, .year-input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.quick-down-row, .quick-year-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.schedule-card {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--card-border, #e5e8eb);
+}
+.schedule-title {
+  margin-bottom: 8px;
+  color: var(--c-33, #1f2329);
+  font-size: 14px;
+  font-weight: 700;
+}
+.schedule-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--card-border, #e5e8eb);
+}
+.schedule-period {
+  flex: none;
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+}
+.schedule-money {
+  color: var(--c-33, #1f2329);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+}
+.schedule-sub {
+  margin-top: 2px;
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+  text-align: right;
+}
+.decrease-tip {
+  margin-top: 10px;
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+}
+.down-payment-inline {
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 600;
+}

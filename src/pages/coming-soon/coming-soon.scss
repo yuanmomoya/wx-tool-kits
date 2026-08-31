@@ -1,0 +1,38 @@
+.shell {
+  min-height: 100vh;
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.card {
+  margin: 16px;
+  padding: 20px 16px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-card, 12px);
+  background: var(--c-ff, #fff);
+}
+
+.card__badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill, 999px);
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.card__title {
+  display: block;
+  margin-top: 12px;
+  color: var(--c-33, #1f2329);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card__desc {
+  display: block;
+  margin-top: 10px;
+  color: var(--c-66, #4e5969);
+  font-size: 14px;
+  line-height: 1.6;
+}

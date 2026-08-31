@@ -1,0 +1,90 @@
+@import '../../../styles/calc-page.scss';
+
+.gauge {
+  margin-top: 16px;
+}
+
+.gauge-track {
+  position: relative;
+  display: flex;
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+}
+
+.gauge-segment {
+  flex: 1;
+}
+
+.segment-low {
+  background: #8ec8ff;
+}
+
+.segment-normal {
+  background: #7dcfb6;
+}
+
+.segment-high {
+  background: #f0c36a;
+}
+
+.segment-alert {
+  background: #f08a8a;
+}
+
+.gauge-marker {
+  position: absolute;
+  top: -4px;
+  width: 4px;
+  height: 18px;
+  margin-left: -2px;
+  border-radius: 999px;
+  background: var(--c-33, #1f2329);
+}
+
+.gauge-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+}
+
+.ideal-card {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.ideal-title {
+  color: var(--c-99, #86909c);
+  font-size: 12px;
+}
+
+.ideal-value {
+  margin-top: 4px;
+  color: var(--c-33, #1f2329);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.result-card.result-low .result-badge {
+  background: #eaf4fb;
+  color: #2d6895;
+}
+
+.result-card.result-normal .result-badge {
+  background: #e8f6f2;
+  color: #2f7567;
+}
+
+.result-card.result-high .result-badge {
+  background: #fff6e5;
+  color: #9a6a19;
+}
+
+.result-card.result-alert .result-badge {
+  background: #ffecec;
+  color: #c44b4b;
+}

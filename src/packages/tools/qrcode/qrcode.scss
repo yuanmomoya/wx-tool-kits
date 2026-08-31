@@ -1,0 +1,15 @@
+@import '../../../styles/tool-page.scss';
+
+.preview-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+  border-radius: var(--radius-12, 12px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.qr-preview {
+  border-radius: var(--radius-8, 8px);
+  background: #fff;
+}

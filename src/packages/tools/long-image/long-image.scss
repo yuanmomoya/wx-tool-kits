@@ -1,0 +1,59 @@
+@import '../../../styles/tool-page.scss';
+
+.text-action {
+  color: var(--p-main, #1677ff);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.image-list {
+  margin-top: 12px;
+}
+
+.image-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-top: 1px solid var(--card-border, #e5e8eb);
+}
+
+.list-thumb {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--c-f5, #f2f3f5);
+  flex: none;
+}
+
+.list-actions {
+  display: flex;
+  gap: 6px;
+  flex: none;
+}
+
+.list-action {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+  color: var(--c-66, #4e5969);
+  font-size: 12px;
+}
+
+.list-action.danger {
+  color: #a85b52;
+}
+
+.compare-value.dim {
+  font-size: 13px;
+}
+
+.result-preview {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}

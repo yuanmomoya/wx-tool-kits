@@ -1,0 +1,31 @@
+@import '../../../styles/calc-page.scss';
+
+.zodiac-icon {
+  font-size: 42px;
+  line-height: 1;
+}
+.keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.keyword-chip {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+}
+.zodiac-list {
+  margin-top: 8px;
+}
+.zodiac-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--card-border, #e5e8eb);
+}
+.zodiac-name { color: var(--c-33, #1f2329); font-size: 14px; font-weight: 700; }
+.zodiac-range { color: var(--c-99, #86909c); font-size: 12px; }

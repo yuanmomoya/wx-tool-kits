@@ -1,0 +1,49 @@
+@import '../../../styles/calc-page.scss';
+
+.item-card {
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+.item-card.is-best {
+  border-color: var(--p-main, #1677ff);
+  background: var(--p-weak, #eaf3ff);
+}
+.item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.item-title {
+  color: var(--c-33, #1f2329);
+  font-size: 14px;
+  font-weight: 700;
+}
+.item-remove {
+  color: var(--c-99, #86909c);
+  font-size: 12px;
+}
+.item-meta {
+  margin-top: 8px;
+  color: var(--c-66, #4e5969);
+  font-size: 12px;
+}
+.saving-text {
+  margin-top: 4px;
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 700;
+}
+.add-btn {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px dashed var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  color: var(--p-main, #1677ff);
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,116 @@
+@import '../../../styles/calc-page.scss';
+
+.gender-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.gender-label {
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+}
+
+.gender-selector {
+  display: flex;
+  gap: 8px;
+}
+
+.gender-chip {
+  min-width: 72px;
+  padding: 8px 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+  text-align: center;
+}
+
+.gender-chip.is-active {
+  border-color: var(--p-main, #1677ff);
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-weight: 700;
+}
+
+.activity-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.activity-btn {
+  padding: 12px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.activity-btn.is-active {
+  border-color: var(--p-main, #1677ff);
+  background: var(--p-weak, #eaf3ff);
+}
+
+.activity-label {
+  color: var(--c-33, #1f2329);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.activity-btn.is-active .activity-label {
+  color: var(--p-main, #1677ff);
+}
+
+.activity-desc {
+  margin-top: 4px;
+  color: var(--c-99, #86909c);
+  font-size: 12px;
+}
+
+.goal-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.goal-item {
+  width: 31.6%;
+  padding: 10px 8px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.goal-label {
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+}
+
+.goal-value {
+  margin-top: 4px;
+  color: var(--c-33, #1f2329);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.goal-unit {
+  margin-top: 2px;
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+}
+
+.result-value-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.result-unit {
+  color: var(--c-99, #86909c);
+  font-size: 13px;
+}

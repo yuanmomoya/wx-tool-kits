@@ -1,0 +1,75 @@
+@import '../../../styles/calc-page.scss';
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.social-name-wrap {
+  flex: 1;
+  min-width: 0;
+}
+.social-name {
+  color: var(--c-33, #1f2329);
+  font-size: 13px;
+  font-weight: 600;
+}
+.social-payer {
+  margin-top: 2px;
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+}
+.social-rate-box {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 72px;
+}
+.social-rate-input {
+  width: 48px;
+  height: 36px;
+  min-height: 36px;
+  padding: 0 6px;
+  border: 1px solid var(--input-border, #dfe3e8);
+  border-radius: var(--radius-control, 8px);
+  background: var(--c-ff, #ffffff);
+  color: var(--c-33, #1f2329);
+  font-size: 13px;
+  line-height: 36px;
+  text-align: right;
+}
+.social-rate-unit, .social-amount {
+  color: var(--c-99, #86909c);
+  font-size: 12px;
+  white-space: nowrap;
+}
+.social-amount {
+  width: 72px;
+  text-align: right;
+}
+.social-total {
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 600;
+}
+.social-note {
+  margin-top: 8px;
+  color: var(--c-99, #86909c);
+  font-size: 11px;
+  line-height: 1.4;
+}
+.fund-input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.quick-fund-row {
+  display: flex;
+  gap: 6px;
+}

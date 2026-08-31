@@ -1,0 +1,6 @@
+@import '../../../styles/calc-page.scss';
+
+.status-fresh .result-badge { background: #e8f6f2; color: #2f7567; }
+.status-warning .result-badge { background: #fff6e5; color: #9a6a19; }
+.status-today .result-badge { background: #fff1ee; color: #c4662d; }
+.status-expired .result-badge { background: #ffecec; color: #c44b4b; }

@@ -1,0 +1,77 @@
+@import '../../../styles/tool-page.scss';
+
+.block {
+  margin-top: 14px;
+}
+
+.custom-row {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.custom-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.unit-row {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+}
+
+.unit-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  min-width: 44px;
+  padding: 0 8px;
+}
+
+.sub-setting {
+  margin-top: 10px;
+}
+
+.custom-size-block {
+  margin-top: 10px;
+}
+
+.size-separator {
+  align-self: center;
+  color: var(--c-99, #86909c);
+  font-size: 14px;
+}
+
+.aspect-toggle {
+  display: inline-flex;
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: 1px solid var(--input-border, #dfe3e8);
+  border-radius: var(--radius-8, 8px);
+  color: var(--c-66, #4e5969);
+  font-size: 12px;
+}
+
+.aspect-toggle.is-active {
+  border-color: var(--p-main, #1677ff);
+  color: var(--p-main, #1677ff);
+  background: var(--p-weak, #eaf3ff);
+}
+
+.cancel-link {
+  margin-top: 10px;
+  text-align: center;
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+}
+
+.result-preview {
+  width: 100%;
+  height: 180px;
+  margin-top: 12px;
+  border-radius: var(--radius-8, 8px);
+  background: var(--s-1-weak, #f5f7fa);
+}

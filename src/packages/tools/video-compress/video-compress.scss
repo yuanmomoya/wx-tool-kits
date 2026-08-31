@@ -1,0 +1,29 @@
+@import '../../../styles/tool-page.scss';
+
+.block {
+  margin-top: 14px;
+}
+
+.video-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.preview-video,
+.result-video {
+  width: 100%;
+  height: 180px;
+  border-radius: var(--radius-8, 8px);
+  background: #111;
+}
+
+.preview-video {
+  width: 72px;
+  height: 72px;
+  flex: none;
+}
+
+.result-video {
+  margin-top: 12px;
+}

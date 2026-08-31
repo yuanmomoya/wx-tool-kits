@@ -1,0 +1,26 @@
+.tool-intro-card {
+  margin-bottom: 10px;
+  padding: 16px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-card, 12px);
+  background: var(--c-ff, #ffffff);
+}
+
+.tool-intro-card__title,
+.tool-intro-card__description {
+  display: block;
+}
+
+.tool-intro-card__title {
+  color: var(--c-33, #1f2329);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.tool-intro-card__description {
+  margin-top: 8px;
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+  line-height: 1.55;
+}

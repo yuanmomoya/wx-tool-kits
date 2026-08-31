@@ -1,0 +1,257 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.page-scroll {
+  flex: 1;
+  height: 0;
+  min-height: 0;
+}
+
+.page {
+  min-height: 100%;
+  padding: 8px 16px 40px;
+  box-sizing: border-box;
+  background: var(--s-1-weak, #f5f7fa);
+}
+
+.search-box {
+  margin-bottom: 10px;
+}
+
+.search-input {
+  width: 100%;
+  height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: 22px;
+  background: var(--c-ff, #fff);
+  font-size: 14px;
+  color: var(--c-33, #1f2329);
+  box-sizing: border-box;
+}
+
+.quick-tags {
+  width: 100%;
+  height: 30px;
+  min-height: 30px;
+  margin-bottom: 16px;
+}
+
+.quick-tags__inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+}
+
+.quick-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  height: 30px;
+  margin-right: 8px;
+  padding: 0 12px;
+  border-radius: 15px;
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.featured-carousel {
+  width: 100%;
+  height: 154px;
+}
+
+.featured-carousel__track,
+.featured-carousel__item {
+  width: 100%;
+  height: 138px;
+}
+
+.featured-carousel__item {
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+
+.featured-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 138px;
+  padding: 18px 16px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-card, 12px);
+  background: var(--c-ff, #fff);
+  box-sizing: border-box;
+}
+
+.featured-card--press {
+  background: var(--s-1-hover, #eef2f7);
+}
+
+.featured-card__copy {
+  flex: 1;
+  min-width: 0;
+  padding-right: 12px;
+}
+
+.featured-card__badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--p-weak, #eaf3ff);
+  color: var(--p-main, #1677ff);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.featured-card__title {
+  display: block;
+  margin-top: 10px;
+  color: var(--c-33, #1f2329);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.featured-card__desc {
+  display: block;
+  margin-top: 6px;
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.featured-card__action {
+  display: block;
+  margin-top: 12px;
+  color: var(--p-main, #1677ff);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.featured-card__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 72px;
+  height: 72px;
+}
+
+.featured-card__image {
+  width: 72px;
+  height: 72px;
+}
+
+.featured-carousel__dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+}
+
+.featured-carousel__dot {
+  width: 5px;
+  height: 5px;
+  margin: 0 3px;
+  border-radius: 999px;
+  background: var(--c-e6, #d8dde3);
+  transition: width 180ms ease, background-color 180ms ease;
+}
+
+.featured-carousel__dot.is-active {
+  width: 16px;
+  background: var(--p-main, #1677ff);
+}
+
+.tool-grid {
+  // Skyline 真机对 CSS Grid 的支持与开发者工具不一致，使用 Flex 保证稳定双列。
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tool-grid > .tool-card {
+  width: calc(50% - 5px);
+  margin-bottom: 10px;
+  flex: none;
+}
+
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topic-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 8px;
+  border: 1px solid var(--card-border, #e5e8eb);
+  border-radius: var(--radius-card, 12px);
+  background: var(--c-ff, #ffffff);
+}
+
+.topic-card--press {
+  background: var(--s-1-hover, #eef2f7);
+}
+
+.topic-card__label {
+  display: block;
+  color: var(--p-main, #1677ff);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.topic-card__image {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  margin-right: 12px;
+}
+
+.topic-card__copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.topic-card__title {
+  display: block;
+  margin-top: 8px;
+  color: var(--c-33, #1f2329);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.topic-card__desc {
+  display: block;
+  margin-top: 6px;
+  color: var(--c-66, #4e5969);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.topic-card__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: var(--radius-control, 8px);
+  background: var(--p-main, #1677ff);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
