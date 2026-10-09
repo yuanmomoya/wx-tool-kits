@@ -144,3 +144,11 @@ pnpm dev:weapp
 ## 社区
 
 感谢 [LINUX DO](https://linux.do/) 开源社区提供交流与分享平台。
+
+## 公众号
+
+<p align="center">
+  <img src="images/wx-logo.png" width="360" alt="程序员小袁微信公众号" />
+</p>
+<p align="center"><b>微信扫描上方二维码，关注公众号 程序员小袁</b></p>
+<p align="center">编程干货 · 开发笔记 · AI 工具</p>
