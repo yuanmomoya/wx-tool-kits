@@ -36,12 +36,22 @@ const config = {
     '@': path.resolve(__dirname, '..', 'src'),
   },
   mini: {
+    mediaUrlLoaderOption: {
+      // true 表示不把 mp3 内联成 base64，小程序音频要读分包里的文件。
+      limit: true,
+    },
     postcss: {
       pxtransform: {
         enable: true,
         config: {
           selectorBlackList: ['nut-'],
         },
+      },
+      autoprefixer: {
+        enable: false,
+      },
+      './scripts/postcss-strip-prefixes.cjs': {
+        enable: true,
       },
       cssModules: {
         enable: false,

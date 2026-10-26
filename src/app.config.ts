@@ -19,6 +19,7 @@ export default defineAppConfig({
         'nine-grid/nine-grid',
         'qrcode/qrcode',
         'video-compress/video-compress',
+        'pelvic-floor/pelvic-floor',
         'bmi/bmi',
         'bmr/bmr',
         'mortgage/mortgage',

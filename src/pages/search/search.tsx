@@ -44,6 +44,9 @@ const SEARCH_ITEM_ORDER: Record<string, number> = {
   'national-service-platform': 0,
   'social-security-card': 1,
   'service-12333': 2,
+  'pelvic-floor': 0,
+  bmi: 1,
+  bmr: 2,
 }
 
 const SUGGESTIONS = ['社保', '图片处理', '生活健康', '餐饮开店']

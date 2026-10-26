@@ -30,11 +30,12 @@ pnpm-debug.log*
 project.private.config.json
 miniprogram_npm/
 
-# Python (icon generation)
+# Python (icon generation, local TTS cache)
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+scripts/.cache/
 
 # IDE / OS
 .idea/

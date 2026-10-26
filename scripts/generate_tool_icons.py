@@ -286,6 +286,13 @@ def bmi():
     i.save("bmi")
 
 
+def pelvic_floor():
+    i = Icon("mint")
+    i.round_rect((14, 18, 82, 78), radius=12, fill=i.soft, outline=i.fg, width=4)
+    i.line([(24, 58), (34, 58), (40, 28), (50, 28), (56, 58), (66, 58), (72, 36), (78, 58)], width=5)
+    i.save("pelvic-floor")
+
+
 def bmr():
     i = Icon("coral")
     i.polygon([(50, 8), (65, 34), (62, 46), (76, 37), (80, 57), (70, 78), (48, 88), (26, 79), (15, 61), (20, 38), (36, 51), (34, 32)], fill=i.soft, outline=i.fg, width=4)
@@ -409,6 +416,7 @@ GENERATORS = [
     retirement_age,
     date_diff,
     bmi,
+    pelvic_floor,
     bmr,
     relationship,
     compound,

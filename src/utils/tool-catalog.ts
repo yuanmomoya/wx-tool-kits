@@ -33,6 +33,18 @@ const generatedIcon = (name: string) => `/assets/icons/tools/${name}.png`
 
 export const featuredTools: ToolItem[] = [
   {
+    id: 'pelvic-floor',
+    iconImage: generatedIcon('pelvic-floor'),
+    title: '盆底肌训练',
+    desc: '10分钟渐进收缩和放松',
+    icon: 'activity',
+    iconColor: '#2f7567',
+    tone: 'mint',
+    category: '生活健康',
+    path: '/packages/tools/pelvic-floor/pelvic-floor',
+    keywords: ['盆底肌', '缩肛', '凯格尔', '提肛', 'Kegel', '性功能', '控尿'],
+  },
+  {
     id: 'document-copy',
     iconImage: generatedIcon('document-copy'),
     title: '证件材料复印排版',
@@ -336,6 +348,18 @@ export const moreTools: ToolItem[] = [
     keywords: ['日期', '间隔', '天数', '相差几天', '倒计时', '纪念日', '前后日期', '工作日', '日期计算'],
   },
   {
+    id: 'pelvic-floor',
+    iconImage: generatedIcon('pelvic-floor'),
+    title: '盆底肌训练',
+    desc: '10分钟渐进收缩和放松',
+    icon: 'activity',
+    iconColor: '#2f7567',
+    tone: 'mint',
+    category: '生活健康',
+    path: '/packages/tools/pelvic-floor/pelvic-floor',
+    keywords: ['盆底肌', '缩肛', '凯格尔', '提肛', 'Kegel', '性功能', '控尿'],
+  },
+  {
     id: 'bmi',
     iconImage: generatedIcon('bmi'),
     title: 'BMI 计算',
@@ -483,6 +507,7 @@ export const migratedPaths = new Set<string>([
   '/packages/document-copy/index/index',
   '/packages/tools/qrcode/qrcode',
   '/packages/tools/video-compress/video-compress',
+  '/packages/tools/pelvic-floor/pelvic-floor',
   '/packages/tools/bmi/bmi',
   '/packages/tools/bmr/bmr',
   '/packages/tools/mortgage/mortgage',

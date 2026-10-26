@@ -3,7 +3,7 @@
   "cloudfunctionRoot": "cloudfunctions/",
   "projectname": "image-toolkit-tool-kits",
   "description": "全能工具箱（Taro + Skyline + 微信云开发内容安全）",
-  "appid": "touristappid",
+  "appid": "wxac4e41c61f3ae297",
   "setting": {
     "urlCheck": false,
     "es6": true,

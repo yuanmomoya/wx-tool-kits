@@ -5,15 +5,6 @@ page {
   color: var(--c-33, #1f2329);
   font-family: system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-}
-
-::-webkit-scrollbar {
-  display: none;
-  width: 0;
-  height: 0;
-  color: transparent;
-  background: transparent;
 }
 
 view,
